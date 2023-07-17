@@ -1,20 +1,10 @@
-/*  your css code here. If applicable */
 body {
-    width: 1100px;
-    margin: 0 auto;
-  }
-  
-  .imageContainer {
-    text-align: center;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  table td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid black;
-  }
+	width: 1100px;
+}
+td:nth-child(odd) {
+	width:200px;
+}
+
+td:nth-child(even) {
+  width:600px;
+}
